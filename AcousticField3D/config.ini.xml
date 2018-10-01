@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.8.0_65" class="java.beans.XMLDecoder">
+<java version="1.8.0_181" class="java.beans.XMLDecoder">
  <object class="acousticfield3d.Config" id="Config0">
   <void class="acousticfield3d.Config" method="getField">
    <string>lastPath</string>
@@ -220,6 +220,10 @@
   <void method="put">
    <string>.algForm.itersMultiFocalKickText</string>
    <string>10</string>
+  </void>
+  <void method="put">
+   <string>.transControlPanel.pushPullModeCheck</string>
+   <string>0</string>
   </void>
   <void method="put">
    <string>.addTransducersForm.sizeText</string>
